@@ -9,3 +9,7 @@ Subject
 		---------------------------------------------
 		$> ./join_with_separator ':' a b c | cat -e 
 		a:b:c$
+		$> ./join_with_separator '(::)' hello world again | cat -e
+		hello(::)world(::)again$
+		$> ./join_with_separator | cat -e
+		$
