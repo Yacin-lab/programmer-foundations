@@ -1,5 +1,5 @@
-Programmer Foundations
----
+# Programmer Foundations
+
 A starter repository for anyone beginning their programming journey.
 It covers the basics every programmer needs to know.
 
