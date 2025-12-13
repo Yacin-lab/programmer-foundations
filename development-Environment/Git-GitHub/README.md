@@ -96,7 +96,10 @@ git merge			//merge changes in origin branch
 🧰 Stash
 ```
 git stash
+git stash list
+git stash pop
 ```
+
 
 
 
