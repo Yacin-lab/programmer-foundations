@@ -32,43 +32,43 @@
 - Remote repo → The online version of your project (on GitHub).
 
 ### Commandes
-Clone repo :
+📥 Clone repo :
 ```
 git clone [path]
 ```
-Add & Reset & Commit :
+🗃️​ Add & Reset & Commit :
 ```
 git add [file]
 git status
 git commit -m "your commit"
 git reset [file]
 ```
-Push to remote repo :
+📤 Push to remote repo :
 ```
 git branch
 git branch -m master main
 git remote -v
 git push [Remote-name] [Branche-name]
 ```
-Pull Changes (fetch & merge):
+📥 Pull Changes (fetch & merge):
 ```
 git fetch
 git merge
 git pull origin [Branch-name]
 ```
-Create remote repo from command :
+🕹️​ Create remote repo from command :
 ```
 git init
 git remote add origin [remote-repository-url]
 ```
-Configurations :
+⚙️ Configurations :
 ```
 git config -l
 git help config
 git config --global user.name "Your name"
 git config --global user.email "Your_email@example.com"
 ```
-Generate Public Key :
+🔑​ Generate Public Key :
 ```
 ssh-keygen -t rsa -b 4096 -C "Your_email@example.com"
 ssh -T git@github.com
@@ -78,6 +78,26 @@ ssh -T git@github.com
 > - Computer sends a signature using your private key.
 > - GitHub compares it with the public key.
 > - If they match, GitHub knows it’s really you.
+🔄​ Aliases
+```
+git config --global alias.[name] 'value'
+	alias.co checkout
+	alias.cm 'commit -m'
+	alias.st status
+	alias.br branch
+```
+​🌿​ Branching And Merging
+```
+git branch [new branch]
+git checkout [branch name]
+git branch -d [branch name]
+git merge			//merge changes in origin branch
+```
+🧰 Stash
+```
+git stash
+```
+
 
 
 
