@@ -78,6 +78,7 @@ ssh -T git@github.com
 > - Computer sends a signature using your private key.
 > - GitHub compares it with the public key.
 > - If they match, GitHub knows it’s really you.
+
 🔄​ Aliases
 ```
 git config --global alias.[name] 'value'
@@ -100,6 +101,7 @@ git stash
 git stash list
 git stash pop
 ```
+
 
 
 
