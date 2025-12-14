@@ -114,6 +114,21 @@ git restore --staged [file]			//To Untracked
 git clean -n						//Selection
 git clean -f						//remove
 ```
+⚠️
+```
+git reset --hard [commit ID]		//this delete last files also
+```
+🙄 Ignoring Files And Directories
+```
+.gitignore		[*OK !NOT]
+```
+🚩​ Tagging And Releasing
+```
+git tag [v1.0]						//after pushing
+git tag -a [v2.0] -m "last project"
+git push origin [v2.0]
+```
+
 
 
 
