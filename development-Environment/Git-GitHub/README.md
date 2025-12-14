@@ -125,9 +125,15 @@ git reset --hard [commit ID]		//this delete last files also
 🚩​ Tagging And Releasing
 ```
 git tag [v1.0]						//after pushing
-git tag -a [v2.0] -m "last project"
+git tag -a [v2.0] -m "comment"
 git push origin [v2.0]
+git tag -l "*v1."					//search
+git tadg -d
+git push origin --delet v2.0 v1.0
 ```
+
+
+
 
 
 
