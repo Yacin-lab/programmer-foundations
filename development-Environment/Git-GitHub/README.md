@@ -90,8 +90,9 @@ git config --global alias.[name] 'value'
 ```
 git branch [new branch]
 git checkout [branch name]
-git branch -d [branch name]
-git merge			//merge changes in origin branch
+git branch -d [branch name]			//in git
+git push origin -d [branch name]	//in github
+git merge							//merge changes in origin branch
 ```
 🧰 Stash
 ```
@@ -99,6 +100,7 @@ git stash
 git stash list
 git stash pop
 ```
+
 
 
 
