@@ -108,12 +108,13 @@ git stash show
 git stash drop						//supp stash{}
 git stash clear
 ```
-Restore And Clean
+🧹 Restore And Clean
 ```
 git restore --staged [file]			//To Untracked
 git clean -n						//Selection
 git clean -f						//remove
 ```
+
 
 
 
