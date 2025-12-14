@@ -42,6 +42,7 @@ git add [file]
 git status
 git commit -m "your commit"
 git reset [file]
+git rm [file]
 ```
 📤 Push to remote repo :
 ```
@@ -91,6 +92,7 @@ git config --global alias.[name] 'value'
 ```
 git branch [new branch]
 git checkout [branch name]
+git checkout -b [branch name]		//create and switch to it
 git branch -d [branch name]			//supp from git
 git push origin -d [branch name]	//supp from github
 git merge							//merge changes in origin branch
@@ -106,6 +108,7 @@ git stash show
 git stash drop						//supp stash{}
 git stash clear
 ```
+
 
 
 
