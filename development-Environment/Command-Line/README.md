@@ -17,7 +17,7 @@ Command Line
 Directories And Files
 ```
 cd [path]                           //move forward
-cd ../[path]                        //move back
+cd ../[direc]                        //move back
 mkdir [path]
 mv [path]      and      mv [old name] [new mane]
 cp [path]
@@ -62,6 +62,7 @@ whoami
 ---
 Source for all commands and usage instructions
 [ss64](https://ss64.com/bash/)
+
 
 
 
