@@ -3,6 +3,7 @@
 
 Shell is command line interpreter.
 > Examples shell => Bash, cmd, PowerShell
+
 lets you control the system.
 > You → Shell → Operating System
 
@@ -14,4 +15,5 @@ Directories And Files
 ```
 
 ```
+
 
