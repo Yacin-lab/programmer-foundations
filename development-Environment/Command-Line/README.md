@@ -44,6 +44,8 @@ piping the results:
 ls -l | grep 'search text'
 ```
 > [!NOTE]
+> GO
+
 
 
 
