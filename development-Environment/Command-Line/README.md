@@ -61,7 +61,8 @@ whoami
 ```
 ---
 Source for all commands and usage instructions
-[site ss64](https://ss64.com/bash/)
+[ss64](https://ss64.com/bash/)
+
 
 
 
