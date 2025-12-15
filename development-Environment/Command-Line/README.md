@@ -55,6 +55,13 @@ ls -l | grep 'search text'
 >        ls | grep ".c"
 >        ls → writes to stdout
 >        grep → read from stdin
+User
+```
+whoami
+```
+---
+Source for all commands and usage instructions
+https://ss64.com/bash/
 
 
 
