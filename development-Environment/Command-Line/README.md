@@ -1,7 +1,7 @@
 ...
 ---
 
-- Shell is command line interpreter.
+- `Shell` is command line interpreter.
 
       Examples shell => Bash, cmd, PowerShell
 
@@ -9,9 +9,9 @@ lets you control the system.
 
       You → Shell → Operating System
 
-- Bash is the default shell on many systems.
+- `Bash` is the default shell on many systems.
 
-- Terminal is text input/output environment
+- `Terminal` is text input/output environment
 
 ---
 
@@ -55,6 +55,7 @@ ls -l | grep 'search text'
 >       ls | grep ".c"
 >       ls → writes to stdout
 >       grep → read from stdin
+
 
 
 
