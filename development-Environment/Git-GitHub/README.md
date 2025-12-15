@@ -47,20 +47,20 @@ git rm [file]
 📤 Push to remote repo :
 ```
 git branch
-git branch -m master main
+git branch -m [old name] [new name]				// rename branch
 git remote -v
-git push [Remote-name] [Branche-name]
+git push [Remote name] [Branche name]
 ```
 📥 Pull Changes (fetch & merge):
 ```
 git fetch
 git merge
-git pull origin [Branch-name]
+git pull [Remote name] [Branch name]
 ```
 🕹️​ Create remote repo from command :
 ```
 git init
-git remote add origin [remote-repository-url]
+git remote add origin [repository url]
 ```
 ⚙️ Configurations :
 ```
@@ -99,10 +99,10 @@ git merge							//merge changes in origin branch
 ```
 🧰 Stash
 ```
-git stash
+git stash							//after commit
 git stash save "comment"
 git stash list
-git stash pop [stash{number}]
+git stash pop [stash{number}]		//take it out of the box
 git stash apply						//copy from stash{}
 git stash show
 git stash drop						//supp stash{}
@@ -113,10 +113,10 @@ git stash clear
 git restore --staged [file]			//To Untracked
 git clean -n						//Selection
 git clean -f						//remove
-```
-⚠️
-```
-git reset --hard [commit ID]		//this delete last files also
+git log
+git reset --hard [commit id]		//access to any previous commit
+git checkout [commit id]			//just taking a look
+git checkout [branch]				//return
 ```
 🙄 Ignoring Files And Directories
 ```
@@ -124,13 +124,14 @@ git reset --hard [commit ID]		//this delete last files also
 ```
 🚩​ Tagging And Releasing
 ```
-git tag [v1.0]						//after pushing
+git tag [v1.0]						//after commit
 git tag -a [v2.0] -m "comment"
 git push origin [v2.0]
 git tag -l "*v1."					//search
 git tadg -d
 git push origin --delet v2.0 v1.0
 ```
+
 
 
 
