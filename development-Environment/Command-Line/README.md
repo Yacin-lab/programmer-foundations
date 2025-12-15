@@ -44,7 +44,9 @@ piping the results:
 ls -l | grep 'search text'
 ```
 > [!NOTE]
-> GO
+> 🔗​ Pipe | It sends the output of one command to another command.
+> ​⚠️​ Pipe works with text output, not files.
+
 
 
 
