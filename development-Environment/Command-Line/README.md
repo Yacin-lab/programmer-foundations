@@ -51,9 +51,11 @@ ls -l | grep 'search text'
 > It sends the output of one command to another command.
 > Pipe connects stdout to stdin.
 > - Example:
->       + ls | grep ".c"
->       + ls → writes to stdout
->       + grep → read from stdin
+> 
+>        ls | grep ".c"
+>        ls → writes to stdout
+>        grep → read from stdin
+
 
 
 
