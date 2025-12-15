@@ -38,7 +38,13 @@ Grep
 grep 'search text' [file]
 grep 'search text' -r [directory]            //search in recursive directories
                    -l                        //Sorting files containing 'search text'
+examples:
+grep 'error' [file] > [errors file]
+piping the results:
+ls -l | grep 'search text'
 ```
+[!NOTE]
+
 
 
 
