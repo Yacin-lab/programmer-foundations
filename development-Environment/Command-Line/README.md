@@ -1,23 +1,23 @@
 ...
 ---
 
-### Shell
-- is command line interpreter.
-> Examples shell => Bash, cmd, PowerShell
+- Shell is command line interpreter.
+
+      Examples shell => Bash, cmd, PowerShell
 
 lets you control the system.
-> You → Shell → Operating System
 
-### Terminal
-- is text input/output environment
+      You → Shell → Operating System
 
-### Bash
-- is the default shell on many systems.
+- Bash is the default shell on many systems.
 
-Directories And Files
+- Terminal is text input/output environment
+
+- Directories And Files
 ```
 
 ```
+
 
 
 
