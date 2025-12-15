@@ -2,9 +2,7 @@
 ---
 
 - `Shell` is command line interpreter.
-
-
-> [!NOT]
+> [!NOTE]
 > Examples shell => Bash, cmd, PowerShell
 
 > lets you control the system.
@@ -56,6 +54,7 @@ ls -l | grep 'search text'
 >       ls | grep ".c"
 >       ls → writes to stdout
 >       grep → read from stdin
+
 
 
 
