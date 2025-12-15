@@ -4,7 +4,6 @@
 - `Shell` is command line interpreter.
 > [!TIP]
 > Examples shell => Bash, cmd, PowerShell
-
 > lets you control the system.
 > You → Shell → Operating System
 
@@ -54,6 +53,7 @@ ls -l | grep 'search text'
 >       ls | grep ".c"
 >       ls → writes to stdout
 >       grep → read from stdin
+
 
 
 
