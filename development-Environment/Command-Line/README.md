@@ -13,10 +13,13 @@ lets you control the system.
 
 - Terminal is text input/output environment
 
+---
+
 - Directories And Files
 ```
 
 ```
+
 
 
 
