@@ -43,7 +43,8 @@ grep 'error' [file] > [errors file]
 piping the results:
 ls -l | grep 'search text'
 ```
-[!NOTE]
+> [!NOTE]
+
 
 
 
