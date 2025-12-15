@@ -14,7 +14,7 @@ Command Line
 
 ---
 
-Directories And Files
+### Directories And Files
 ```
 cd [path]                           //move forward
 cd ../[direc]                        //move back
@@ -29,14 +29,14 @@ rm -r           //force remove directory and files
 > [!NOTE]
 > `Redirection >` is for saving, sends output to a file.
 
-Cat And Echo
+### Cat And Echo
 ```
 echo 'text' > [path file]            //create a file and put text in it
 echo 'text' >> [file]           //add text without replacement
 cat [files] > [file]            //copying content ⚠️​(use >> to non-replacement)
 cat -n [file]                   //show numbers of lines
 ```
-Grep
+### Grep
 ```
 grep 'search text' [file]
 grep 'search text' -r [directory]            //search in recursive directories
@@ -55,13 +55,14 @@ ls -l | grep 'search text'
 >        ls | grep ".c"
 >        ls → writes to stdout
 >        grep → read from stdin
-User
+### User
 ```
 whoami
 ```
 ---
 Source for all commands and usage instructions
 [ss64](https://ss64.com/bash/)
+
 
 
 
