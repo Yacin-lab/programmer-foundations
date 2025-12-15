@@ -2,12 +2,11 @@
 ---
 
 - `Shell` is command line interpreter.
+> [!NOT]
+> Examples shell => Bash, cmd, PowerShell
 
-      Examples shell => Bash, cmd, PowerShell
-
-lets you control the system.
-
-      You → Shell → Operating System
+> lets you control the system.
+> You → Shell → Operating System
 
 - `Bash` is the default shell on many systems.
 
@@ -55,6 +54,7 @@ ls -l | grep 'search text'
 >       ls | grep ".c"
 >       ls → writes to stdout
 >       grep → read from stdin
+
 
 
 
