@@ -17,18 +17,24 @@ lets you control the system.
 
 - Directories And Files
 ```
-cd [path]                           // Move forward
-cd ../[path]                        // Move back
+cd [path]                           //move forward
+cd ../[path]                        //move back
 mkdir [path]
 mv [path]      and      mv [old name] [new mane]
 cp [path]
 touch [files]
-rm -d           // remove empty directory and files
-rm -r           // force remove directory and files
+rm -d           //remove empty directory and files
+rm -r           //force remove directory and files
 ```
 - Cat And Echo
 ```
-
+echo 'text' > [file]            //create a file and put text in it
+echo 'text' >> [file]           //add text without replacement
+cat [files] > [file]            //copying content ⚠️​(use >> to non-replacement)
+cat -n [file]                   //show numbers of lines
+```
+Grep
+```
 ```
 
 
