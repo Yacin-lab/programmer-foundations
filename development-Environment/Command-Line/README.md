@@ -50,10 +50,11 @@ ls -l | grep 'search text'
 > `Pipe |` is for processing.
 > It sends the output of one command to another command.
 > Pipe connects stdout to stdin.
-> Example:
->       ls | grep ".c"
->       ls → writes to stdout
->       grep → read from stdin
+> - Example:
+>       - ls | grep ".c"
+>       - ls → writes to stdout
+>       - grep → read from stdin
+
 
 
 
