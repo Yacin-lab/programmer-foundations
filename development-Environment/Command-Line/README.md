@@ -15,7 +15,7 @@ lets you control the system.
 
 ---
 
-- Directories And Files
+Directories And Files
 ```
 cd [path]                           //move forward
 cd ../[path]                        //move back
@@ -26,16 +26,20 @@ touch [files]
 rm -d           //remove empty directory and files
 rm -r           //force remove directory and files
 ```
-- Cat And Echo
+Cat And Echo
 ```
-echo 'text' > [file]            //create a file and put text in it
+echo 'text' > [path file]            //create a file and put text in it
 echo 'text' >> [file]           //add text without replacement
 cat [files] > [file]            //copying content ⚠️​(use >> to non-replacement)
 cat -n [file]                   //show numbers of lines
 ```
 Grep
 ```
+grep 'search text' [file]
+grep 'search text' -r [directory]            //search in recursive directories
+                   -l                        //Sorting files containing 'search text'
 ```
+
 
 
 
