@@ -1,4 +1,4 @@
-Command Line
+Basics Command Line
 ---
 
 - `Shell` is command line interpreter.
@@ -62,6 +62,7 @@ whoami
 ---
 Source for all commands and usage instructions
 [ss64](https://ss64.com/bash/)
+
 
 
 
