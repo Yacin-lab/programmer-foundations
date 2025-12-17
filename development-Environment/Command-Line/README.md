@@ -59,9 +59,25 @@ ls -l | grep 'search text'
 ```
 whoami
 ```
+### Linking
+```
+> Symbolic Links (Soft Links)
+ln -s [file-direc] [link]
+> Hard Links
+ln [file] [link]
+
+```
+> [!NOTE]
+> - Soft Links
+>     * If the original file or directory is deleted or moved, the symbolic link will be broken
+>     * To change the time of a soft link touch -h -t YYMMDDHHMMSS [path/to/link]
+> - Hard Links
+>     * Cannot link to directories
+>     * If the original file is deleted, the data remains accessible through the hard link(s)
 ---
 Source for all commands and usage instructions
 [ss64](https://ss64.com/bash/)
+
 
 
 
