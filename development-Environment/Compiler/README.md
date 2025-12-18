@@ -17,3 +17,31 @@
 > When you run `gcc main.c` GCC automatically does
 >
 >     Preprocessing → Compilation → Assembly → Linking
+
+### Makefile
+- What is a Makefile?
+  A Makefile automates compilation so you can build your program with make.
+  Avoids typing the same command
+
+  *Exampl:
+
+      NAME = program
+      SRC = main.c utils.c
+      CC = gcc
+      CFLAGS = -Wall -Wextra -Werror
+      
+      all:
+      	$(CC) $(CFLAGS) $(SRC) -o $(NAME)
+      
+      clean:
+      	rm -f $(NAME)
+  
+  > [!NOTE]
+  > all → builds the program
+  > clean → removes generated files
+  
+  *How to Use It:
+
+      make        // compile
+      ./program   // run
+      make clean  // delete executable
