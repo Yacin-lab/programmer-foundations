@@ -21,10 +21,12 @@
 >     Preprocessing → Compilation → Assembly → Linking
 
 - Warning Flags
-> gcc -Wall -Wextra -Werror main.c -o program
+> `gcc -Wall -Wextra -Werror main.c -o program`
 >
 > `-Wall` → show common warnings
+> 
 > `-Wextra` → show more warnings
+> 
 > `-Werror` → treat warnings as errors
 
 ### Makefile
