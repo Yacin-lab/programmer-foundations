@@ -20,6 +20,13 @@
 >
 >     Preprocessing → Compilation → Assembly → Linking
 
+- Warning Flags
+> gcc -Wall -Wextra -Werror main.c -o program
+>
+> `-Wall` → show common warnings
+> `-Wextra` → show more warnings
+> `-Werror` → treat warnings as errors
+
 ### Makefile
 - What is a Makefile?
   A Makefile automates compilation so you can build your program with make.
