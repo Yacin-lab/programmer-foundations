@@ -14,6 +14,7 @@
 - `Linking`
   * Combines all .o files together
   * Links libraries  main.o + printf.o + other libraries → a.out
+
 > [!NOTE]
 > When you run `gcc main.c` GCC automatically does
 >
@@ -22,6 +23,7 @@
 ### Makefile
 - What is a Makefile?
   A Makefile automates compilation so you can build your program with make.
+  
   Avoids typing the same command
 
   *Exampl:
