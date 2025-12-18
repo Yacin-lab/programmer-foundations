@@ -26,7 +26,7 @@
   
   Avoids typing the same command
 
-  Exampl:
+  ### Exampl:
 ---
 
       NAME = program
@@ -44,7 +44,7 @@
       `all` → builds the program
       `clean` → removes generated files
   
-  How to Use It:
+  ### How to Use It:
 
       make        // compile
       ./program   // run
