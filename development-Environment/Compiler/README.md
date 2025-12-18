@@ -31,6 +31,7 @@
 
 ### Makefile
 - What is a Makefile?
+
   A Makefile automates compilation so you can build your program with make.
   
   Avoids typing the same command
