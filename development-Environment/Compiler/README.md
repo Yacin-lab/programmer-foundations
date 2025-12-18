@@ -27,6 +27,7 @@
   Avoids typing the same command
 
   Exampl:
+--
 
       NAME = program
       SRC = main.c utils.c
@@ -38,6 +39,7 @@
       
       clean:
       	rm -f $(NAME)
+--
 
       `all` → builds the program
       `clean` → removes generated files
