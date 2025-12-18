@@ -1,5 +1,6 @@
 ### GCC Compiler
 - What is GCC?
+  
   GCC (GNU Compiler Collection) is a tool that turns C code into a program you can run.
 - `Preprocessing`
   * Expands macros          // exp:  #define SIZE 10
