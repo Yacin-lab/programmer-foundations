@@ -40,8 +40,8 @@
       	rm -f $(NAME)
 
 > [!NOTE]
-> all → builds the program
-> clean → removes generated files
+> `all` → builds the program
+> `clean` → removes generated files
   
   How to Use It:
 
