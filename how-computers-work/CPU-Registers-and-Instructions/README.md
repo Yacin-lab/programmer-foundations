@@ -54,7 +54,7 @@ Exampl :
     add registers
     store result in x
     
-> [!IPORTANT]
+> [!IMPORTANT]
 > CPU executes instructions
 >
 > Registers hold temporary data
@@ -83,6 +83,7 @@ Understanding CPU basics helps with:
 > [!NOTE]
 > The CPU executes instructions using registers,
 > following a strict execution cycle, and C code maps closely to this process.
+
 
 
 
