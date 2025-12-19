@@ -53,6 +53,17 @@ Exampl :
     load b into register
     add registers
     store result in x
+    
+> [!IPORTANT]
+> CPU executes instructions
+>
+> Registers hold temporary data
+>
+> RAM stores program data
+>
+> Stack manages function calls
+
+
 ---
 
 ## Relation to C Programming
@@ -72,6 +83,7 @@ Understanding CPU basics helps with:
 > [!NOTE]
 > The CPU executes instructions using registers,
 > following a strict execution cycle, and C code maps closely to this process.
+
 
 
 
