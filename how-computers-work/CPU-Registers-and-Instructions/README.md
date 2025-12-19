@@ -24,14 +24,6 @@ Characteristics:
 The CPU works mainly with registers, not directly with RAM.
 
     RAM → Register → CPU operation → Register → RAM
-Exampl :
-
-    x = a + b;
-
-    load a into register
-    load b into register
-    add registers
-    store result in x
 
 ---
 
@@ -52,7 +44,14 @@ The CPU follows this cycle continuously:
 2. Decode instruction
 3. Execute instruction
  > This repeats millions of times per second.
+Exampl :
 
+    x = a + b;
+
+    load a into register
+    load b into register
+    add registers
+    store result in x
 ---
 
 ## Relation to C Programming
@@ -72,6 +71,7 @@ Understanding CPU basics helps with:
 > [!NOTE]
 > The CPU executes instructions using registers,
 > following a strict execution cycle, and C code maps closely to this process.
+
 
 
 
