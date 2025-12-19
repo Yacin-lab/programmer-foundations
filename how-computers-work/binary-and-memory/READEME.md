@@ -6,7 +6,7 @@ Memory stores data in binary, Like (numbers, letters, programs, images ...)
 A running program uses `RAM` memory.
 It's divided into two important parts: `Stack` and `Heap`
 
-- What is Stack?
+- #### What is Stack?
   * Automatic memory
   * Very fast
   * Used for local variables and function calls
@@ -17,7 +17,7 @@ Characteristics
   * Limited size
   * Follows Last In, First Out
 
-- What is Heap?
+- #### What is Heap?
   * Dynamic memory
   * Used for manual memory reservation
     
@@ -30,4 +30,5 @@ Characteristics
 > [!NOTE]
 > Stack errors → stack overflow
 > Heap errors → memory leaks
+
 
