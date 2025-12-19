@@ -43,6 +43,7 @@ The CPU follows this cycle continuously:
 1. Fetch instruction from memory
 2. Decode instruction
 3. Execute instruction
+ > This repeats millions of times per second.
 
 ---
 
@@ -63,4 +64,5 @@ Understanding CPU basics helps with:
 > [!NOTE]
 > The CPU executes instructions using registers,
 > following a strict execution cycle, and C code maps closely to this process.
+
 
