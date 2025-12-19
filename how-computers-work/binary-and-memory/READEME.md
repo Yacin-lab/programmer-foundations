@@ -47,16 +47,20 @@ A stack overflow happens when the stack runs out of space.
        {
            f();
        }
-   
- > Each call creates a new stack frame → stack fills → crash.
 
-    int arr[10000000];        // Very large local variables
-
- > Too much memory on the stack → overflow.
+> Each call creates a new stack frame → stack fills → crash.
 
  * Very large local variables
+
+       int arr[10000000];        // Very large local variables
+
+> Too much memory on the stack → overflow.
+
+> [!WARNING]
+> Segmentation fault
 
 ---
 
 ### ⚠️ Memory Leak
+
 
