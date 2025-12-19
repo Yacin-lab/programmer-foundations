@@ -55,13 +55,13 @@ Exampl :
     store result in x
     
 > [!IMPORTANT]
-> CPU executes instructions
+> - CPU executes instructions
 >
-> Registers hold temporary data
+> - Registers hold temporary data
 >
-> RAM stores program data
+> - RAM stores program data
 >
-> Stack manages function calls
+> - Stack manages function calls
 
 
 ---
@@ -83,6 +83,7 @@ Understanding CPU basics helps with:
 > [!NOTE]
 > The CPU executes instructions using registers,
 > following a strict execution cycle, and C code maps closely to this process.
+
 
 
 
