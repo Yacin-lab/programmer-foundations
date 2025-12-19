@@ -28,10 +28,10 @@ Exampl :
 
     x = a + b;
 
-load `a` into register
-load `b` into register
-add registers
-store result in `x`
+    load `a` into register
+    load `b` into register
+    add registers
+    store result in `x`
 
 ---
 
@@ -72,6 +72,7 @@ Understanding CPU basics helps with:
 > [!NOTE]
 > The CPU executes instructions using registers,
 > following a strict execution cycle, and C code maps closely to this process.
+
 
 
 
