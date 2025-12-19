@@ -23,6 +23,8 @@ Characteristics:
 
 The CPU works mainly with registers, not directly with RAM.
 
+    RAM → Register → CPU operation → Register → RAM
+
 ---
 
 ## Instructions
@@ -61,3 +63,4 @@ Understanding CPU basics helps with:
 > [!NOTE]
 > The CPU executes instructions using registers,
 > following a strict execution cycle, and C code maps closely to this process.
+
