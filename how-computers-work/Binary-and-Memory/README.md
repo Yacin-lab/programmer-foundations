@@ -23,7 +23,7 @@ It's divided into two important parts: `Stack` and `Heap`
   * Limited size
   * Follows Last In, First Out
 
----
+##
 
 - #### What is Heap?
   * Dynamic memory
@@ -90,6 +90,7 @@ it causes memory usage increases and Long-running programs become slow or crash.
 
     int *p = malloc(sizeof(int));
     // free(p) is missing
+
 
 
 
