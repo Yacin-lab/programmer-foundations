@@ -57,7 +57,7 @@ Exampl :
 > [!IMPORTANT]
 > - CPU executes instructions
 >
-> - Registers hold temporary data
+> - Registers hold temporary data    (return value)
 >
 > - RAM stores program data
 >
@@ -83,6 +83,7 @@ Understanding CPU basics helps with:
 > [!NOTE]
 > The CPU executes instructions using registers,
 > following a strict execution cycle, and C code maps closely to this process.
+
 
 
 
