@@ -39,28 +39,56 @@ Characteristics
 
 ---
 
-- ### Stack Overflow?
-A stack overflow happens when the stack runs out of space.
- * #### Common Causes
+### ⚠️ Segmentation Fault
+This happens when a program tries to access or modify a part of memory that it is not allowed to access or
+modify.
 
-       void f(void)      // Infinite recursion
-       {
-           f();
-       }
+#### The main causes of the Segmentation Fault:
+- Dereferencing NULL Pointer
 
-> Each call creates a new stack frame → stack fills → crash.
+      int *p = NULL;   // p points to nothing
+      *p = 10;
 
- * Very large local variables
+- Array Out-of-Bounds Access
 
-       int arr[10000000];        // Very large local variables
+      int arr[5];      // Valid indexes are 0 to 4
+      arr[10] = 3;
 
-> Too much memory on the stack → overflow.
+- Stack Overflow
 
-> [!WARNING]
-> Segmentation fault
+      void f(void)     // Infinite calls fill the stack → stack overflow
+      {
+          f();
+      }
+
+- Uninitialized Variables
+
+      int x;           // x has no initial value (undefined behavior)
+      printf("%d\n", x);
+
+- Dangling Pointer
+
+      int *p = malloc(sizeof(int));
+      free(p);
+      *p = 5;          // pointer use after free() (undefined behavior)
+
+- Writing to Read-Only Memory
+
+      char *s = "hello";
+      s[0] = 'H';       // string cannot be modified because it are in read-only mode.
+
+  
+Accessing it causes segmentation fault
 
 ---
 
 ### ⚠️ Memory Leak
+Memory is allocated but never freed.
+it causes memory usage increases and Long-running programs become slow or crash.
+
+    int *p = malloc(sizeof(int));
+    // free(p) is missing
+
+
 
 
