@@ -20,6 +20,7 @@ Characteristics
 - What is Heap?
   * Dynamic memory
   * Used for manual memory reservation
+    
   ⚠️​ Memory must be freed manually
 
 Characteristics
@@ -29,3 +30,4 @@ Characteristics
 > [!NOTE]
 > Stack errors → stack overflow
 > Heap errors → memory leaks
+
