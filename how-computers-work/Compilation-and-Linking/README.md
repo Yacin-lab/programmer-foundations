@@ -1,4 +1,4 @@
-# Compilation and Linking in C (Full Model)
+# Compilation and Linking in C
 
 A C program becomes an executable through four stages:
 
