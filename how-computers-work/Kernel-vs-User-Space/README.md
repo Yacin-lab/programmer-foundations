@@ -5,6 +5,9 @@ The Operating System controls hardware and manages system resources.
 
 Programs cannot run without it.
 
+<img src="https://github.com/Yacin-lab/Uses/blob/main/img/user-space-vs-kernel-space-simple-user-space.png" width="900" height="800" >
+
+
 ---
 
 ## Execution Spaces
