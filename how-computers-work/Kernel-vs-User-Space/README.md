@@ -133,8 +133,8 @@ Permissions apply to:
 ---
 
 ## Paths
-- Absolute paths start with `/`
-- Relative paths depend on the current directory
+- Absolute paths start with `/home/code/main.c`
+- Relative paths depend on the current directory `./main.c`
 
 ---
 
