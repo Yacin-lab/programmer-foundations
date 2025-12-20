@@ -57,7 +57,8 @@ Examples:
 - fork()
 - execve()
 
-User programs use system calls to request services from the kernel.
+> [!NOTE]
+> User programs use system calls to request services from the kernel.
 
 ---
 
