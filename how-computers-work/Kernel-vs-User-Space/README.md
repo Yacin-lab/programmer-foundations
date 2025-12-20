@@ -67,3 +67,66 @@ The kernel detects this and terminates the process.
 Programs run in user space.
 The kernel controls hardware.
 System calls connect the two.
+
+---
+
+# Linux Filesystem Structure
+
+## Overview
+The filesystem defines how files and directories are stored and organized.
+Linux uses a single hierarchical tree starting at `/`.
+
+---
+
+## Root Directory `/`
+The root directory is the top of the filesystem.
+All files and directories exist under `/`.
+
+---
+
+## Important Directories
+
+- /bin      : essential system commands
+- /usr/bin  : user programs
+- /lib      : shared libraries
+- /etc      : configuration files
+- /home     : user home directories
+- /tmp      : temporary files
+- /var      : variable data (logs, cache)
+- /dev      : device files
+- /proc     : virtual process information
+
+---
+
+## Files and Inodes
+A file consists of:
+- data blocks
+- metadata stored in an inode
+
+Directories map filenames to inode numbers.
+
+---
+
+## Permissions
+Each file has permissions:
+- read (r)
+- write (w)
+- execute (x)
+
+Permissions apply to:
+- owner
+- group
+- others
+
+---
+
+## Paths
+- Absolute paths start with `/`
+- Relative paths depend on the current directory
+
+---
+
+## Key Takeaway
+The filesystem is a tree managed by the kernel.
+Everything in Linux is treated as a file.
+
