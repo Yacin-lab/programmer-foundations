@@ -2,6 +2,7 @@
 
 ## Operating System
 The Operating System controls hardware and manages system resources.
+
 Programs cannot run without it.
 
 ---
@@ -59,13 +60,16 @@ User programs use system calls to request services from the kernel.
 
 ## Segmentation Fault
 A segmentation fault occurs when a program accesses invalid memory.
+
 The kernel detects this and terminates the process.
 
 ---
 
 ## Key Takeaway
 Programs run in user space.
+
 The kernel controls hardware.
+
 System calls connect the two.
 
 ---
@@ -74,12 +78,14 @@ System calls connect the two.
 
 ## Overview
 The filesystem defines how files and directories are stored and organized.
+
 Linux uses a single hierarchical tree starting at `/`.
 
 ---
 
 ## Root Directory `/`
 The root directory is the top of the filesystem.
+
 All files and directories exist under `/`.
 
 ---
@@ -109,6 +115,7 @@ Directories map filenames to inode numbers.
 
 ## Permissions
 Each file has permissions:
+
 - read (r)
 - write (w)
 - execute (x)
@@ -128,5 +135,6 @@ Permissions apply to:
 
 ## Key Takeaway
 The filesystem is a tree managed by the kernel.
+
 Everything in Linux is treated as a file.
 
