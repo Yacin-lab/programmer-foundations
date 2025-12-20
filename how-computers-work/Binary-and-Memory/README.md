@@ -38,9 +38,9 @@ It's divided into two important parts: `Stack` and `Heap`
 ##
 
 > [!NOTE]
-> `Stack errors` → stack overflow
+> Stack errors → `stack overflow`
 > 
-> `Heap` errors → memory leaks
+> Heap errors → `memory leaks`
 
 ---
 
@@ -93,6 +93,7 @@ it causes memory usage increases and Long-running programs become slow or crash.
 
     int *p = malloc(sizeof(int));
     // free(p) is missing
+
 
 
 
