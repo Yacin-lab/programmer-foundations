@@ -88,6 +88,8 @@ The root directory is the top of the filesystem.
 
 All files and directories exist under `/`.
 
+[](https://github.com/Yacin-lab/Uses/blob/main/img/linux-filesystem-hierarchy.png)
+
 ---
 
 ## Important Directories
