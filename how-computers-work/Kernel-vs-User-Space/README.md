@@ -88,7 +88,7 @@ The root directory is the top of the filesystem.
 
 All files and directories exist under `/`.
 
-[linux-filesystem](https://github.com/Yacin-lab/Uses/blob/main/img/linux-filesystem-hierarchy.png)
+<img src="https://github.com/Yacin-lab/Uses/blob/main/img/linux-filesystem-hierarchy.png" width="900" height="800" >
 
 ---
 
