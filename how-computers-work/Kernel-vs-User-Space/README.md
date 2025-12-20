@@ -47,12 +47,12 @@ Kernel has full system access.
 System calls are the interface between user space and kernel space.
 
 Examples:
-- read
-- write
-- open
-- close
-- fork
-- execve
+- read()
+- write()
+- open()
+- close()
+- fork()
+- execve()
 
 User programs use system calls to request services from the kernel.
 
