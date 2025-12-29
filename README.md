@@ -7,9 +7,6 @@ It covers the basics every programmer needs to know.
 
 - Tools: Git, terminal, compiler
 - How Computers Work
-- Problem Solving
-- Data Structures
-- Advanced Concepts: memory, buffering, kernel basics
 
 ### Goal
 
