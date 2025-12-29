@@ -20,7 +20,7 @@ cd [path]                           //move forward
 cd ../[direc]                        //move back
 mkdir [path]
 mv [file] [path]      and      mv [old name] [new mane]
-cp [path]
+cp [file] [path]
 touch [files]
 file [file]     //show file extension
 rm -d           //remove empty directory and files
@@ -77,6 +77,7 @@ ln [file] [link]
 ---
 Source for all commands and usage instructions
 [ss64](https://ss64.com/bash/)
+
 
 
 
