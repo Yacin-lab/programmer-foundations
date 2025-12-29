@@ -19,7 +19,7 @@ Basics Command Line
 cd [path]                           //move forward
 cd ../[direc]                        //move back
 mkdir [path]
-mv [path]      and      mv [old name] [new mane]
+mv [file] [path]      and      mv [old name] [new mane]
 cp [path]
 touch [files]
 file [file]     //show file extension
@@ -77,6 +77,7 @@ ln [file] [link]
 ---
 Source for all commands and usage instructions
 [ss64](https://ss64.com/bash/)
+
 
 
 
