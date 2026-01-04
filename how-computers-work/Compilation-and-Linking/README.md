@@ -74,4 +74,4 @@ Errors here:
 Each stage has a specific role.
 Understanding the 4 stages is essential for debugging and system-level programming.
 
-[https://github.com/Yacin-lab/Uses/blob/main/img/compilation%20process.png]
+<img src="https://github.com/Yacin-lab/Uses/blob/main/img/compilation%20process.png" width="900" height="800">
